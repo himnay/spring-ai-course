@@ -1,12 +1,3 @@
--- Table creation
-CREATE TABLE contacts (
-      id SERIAL PRIMARY KEY,
-      name VARCHAR(100) NOT NULL,
-      email VARCHAR(150) NOT NULL,
-      city VARCHAR(50) NOT NULL
-);
-
--- Sample insert statements
 INSERT INTO contacts (name, email, city) VALUES
      ('Alice Dupont', 'alice.paris@example.com', 'Paris'),
      ('Marc Laurent', 'marc.paris@example.com', 'Paris'),
